@@ -6,10 +6,17 @@
     <title>Homework 2</title>
   </head>
   <body>
-    <a href="1-gallery.html"
-          ><button class="custom-btn btn-1" type="button">
-            <span>Image gallery</span>
-          </button></a>
+    <a href="" id="gallery-link">
+      <button class="custom-btn btn-1" type="button">
+        <span>Image gallery</span>
+      </button>
+    </a>
+    
+    <script>
+      const baseURL = '/goit-advancedjs-hw-01/';
+      document.getElementById('gallery-link').href = baseURL + '1-gallery.html';
+    </script>
+    
 
   </body>
 </html>
