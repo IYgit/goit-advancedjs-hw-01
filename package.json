@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://github.com/IYgit/goit-advancedjs-hw-01/",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-advancedjs-hw-01/",
