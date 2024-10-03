@@ -1,6 +1,6 @@
 .custom-btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 15px; /* Менші відступи для зменшення ширини */
   background-color: #007bff;
   color: white;
   text-decoration: none;
@@ -9,13 +9,13 @@
   text-align: center;
   border: none;
   cursor: pointer;
+  width: 120px; /* Фіксована менша ширина */
 }
 
 .custom-btn:hover {
   background-color: #0056b3;
 }
 
-/* Відступи між кнопками */
 .btn-spacing {
   margin-right: 10px;
 }
