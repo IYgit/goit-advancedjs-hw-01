@@ -1,37 +1,21 @@
-/* Стилі для обох кнопок */
 .custom-btn {
   display: inline-block;
   padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
   font-size: 16px;
-  color: #fff;
-  background-color: #4e75ff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
   text-align: center;
-  text-decoration: none; /* Забираємо підкреслення для кнопок всередині <a> */
+  border: none;
+  cursor: pointer;
 }
 
-.custom-btn span {
-  display: inline-block;
-}
-
-/* Стиль для першої кнопки */
-.btn-1 {
-  background-color: #4e75ff;
-}
-
-/* Стиль для другої кнопки */
-.btn-2 {
-  background-color: #ff7043;
-}
-
-/* Ефекти при наведенні */
 .custom-btn:hover {
-  background-color: #3d5fd0;
+  background-color: #0056b3;
 }
 
-.btn-2:hover {
-  background-color: #ff5722;
+/* Відступи між кнопками */
+.btn-spacing {
+  margin-right: 10px;
 }
